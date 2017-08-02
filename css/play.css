@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(41,42,43);
+  overflow: hidden; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 0;
+  overflow: hidden;
+  position: relative; }
+
+/*控制部分*/
+.control {
+  margin-top: 30px;
+  height: 30px; }
+  .control a {
+    display: block;
+    float: left;
+    background: url(../images/play.png) no-repeat 0 -30px;
+    opacity: 0.8; }
+    .control a:hover {
+      opacity: 1; }
+  .control div {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    z-index: 99; }
+    .control div span {
+      position: absolute;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.6);
+      top: -20px;
+      z-index: -1;
+      cursor: auto; }
+    .control div i {
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: url(../images/play.png) no-repeat 0 -170px;
+      position: absolute;
+      right: -5px;
+      top: -4px; 
+      z-index:999;
+      cursor:pointer;
+    }
+  .control .prve {
+    width: 19px;
+    height: 20px;
+    margin-right: 56px;
+    margin-top: 4px; }
+  .control .play {
+    width: 21px;
+    height: 29px;
+    background-position: 0 0;
+    margin-right: 50px; }
+.control .stop {
+  background-position: -30px 0; }
+  .control .next {
+    width: 19px;
+    height: 20px;
+    background-position: 0 -52px;
+    margin-right: 34px;
+    margin-top: 4px; }
+  .control .tiao {
+    width: 538px;
+    height: 10px;
+    margin-right: 56px;
+    margin-top: 18px; }
+    .control .tiao .tiao_name {
+      left: 0; }
+    .control .tiao .tiao_time {
+      right: 0; }
+    .control .tiao #tiao1 {
+      width: 0px;
+      height: 2px;
+      background-color: white;
+      cursor: auto;
+      position: absolute;
+      left: 0;
+      top: 4px; }
+    .control .tiao #tiao2 {
+      width: 100%;
+      height: 2px;
+      margin-top: 4px;
+      background-color: rgba(255, 255, 255, 0.1); }
+  .control .mode {
+    width: 26px;
+    height: 25px;
+    background-position: 0 -205px;
+    margin-right: 24px; }
+  .control .list {
+    background-position-y: -260px;
+    height: 20px; }
+  .control .rand {
+    background-position-y: -74px;
+    height: 19px; }
+  .control .one {
+    background-position-y: -232px; }
+  .control .love {
+    width: 23px;
+    height: 21px;
+    background-position: 0 -96px;
+    margin-right: 24px;
+    margin-top: 2px; }
+  .control .down {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -120px;
+    margin-right: 24px;
+    margin-top: 2px; }
+  .control .cunj {
+    width: 74px;
+    height: 26px;
+    background-position: 0 -282px;
+    margin-right: 24px; }
+  .control .cunjo{
+    background-position: 0 -311px; }
+  .control .vol {
+    width: 26px;
+    height: 21px;
+    background-position: 0 -144px;
+    margin-right: 6px;
+    margin-top: 2px; }
+  .control .mute {
+    background-position: 0 -182px; }
+  .control .vole {
+    width: 80px;
+    height: 10px;
+    margin-top: 7px; }
+    .control .vole #vole1 {
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      top: 4px;
+      background-color: white; }
+    .control .vole #vole2 {
+      width: 100%;
+      height: 2px;
+      margin-top: 4px;
+      background-color: rgba(255, 255, 255, 0.1); }
